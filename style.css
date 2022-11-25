@@ -1,0 +1,200 @@
+html {font-family: 'Montserrat', sans-serif;}
+
+body {
+    margin: 0;
+    background-color: rgb(219, 219, 219);
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 2rem 0;
+    
+}
+
+header h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.audiovs {
+    position: fixed;
+    transition: box-shadow 0.2s ease;
+    width: 350px;
+    margin: 3rem 3rem;
+    padding: 0.8rem 1rem;
+    background-color: #364552;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.post {
+    text-align: center;
+    padding: auto;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.2s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);    
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+.logo-nav-container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.yt ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.navigation ul li {
+    display: inline-block;
+    }
+    
+    .navigation ul li a {
+    display: block;
+    padding: 0.5rem 2rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: #ccc; 
+}
+
+.cert {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: auto;
+    background-color: rgb(143, 143, 84);
+    margin: 3rem 0;
+    border-radius: 1rem;
+    padding: 2rem 0;
+}
+
+.cert h2 {
+color: white;
+}
+
+.lpic0 {
+    text-align: center;
+    padding: auto;
+}
+
+.lpic1 {
+    text-align: center;
+    padding: auto;
+}
+
+.lpic2 {
+    text-align: center;
+    padding: auto;
+}
+
+.lpic3 {
+    text-align: center;
+    padding: auto;
+}
+
+.lpic0 h2 {
+    color: rgb(151, 221, 221);
+}
+
+.lpic1 h2 {
+    color: rgb(0, 15, 146);
+}
+
+.lpic2 h2 {
+    color: rgb(0, 75, 22);
+}
+
+.lpic3 h2 {
+    color: rgb(73, 0, 0);
+}
+
+.qs {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: auto;
+    background-color: rgb(32, 122, 51);
+    margin: 3rem 0;
+    border-radius: 1rem;
+    padding: 2rem 0;
+}
+
+.qs h2 {
+    color: white;
+    }
+
+.fm2 {
+    text-align: center;
+    padding: auto;
+}
+
+.fm2 h2 {
+    color: rgb(10, 83, 4);
+}
+
+.fm3 {
+    text-align: center;
+    padding: auto;
+}
+
+.fm3 h2 {
+    color: rgb(10, 83, 4);
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    margin: 6rem 1rem;
+}
+
+footer a:hover {
+color: cornflowerblue;
+}
